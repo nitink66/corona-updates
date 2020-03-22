@@ -1,6 +1,6 @@
 # corona-updates
 Live updates about the corona virus
-https://nitink66.github.io/corona-virus-updates/
+https://nitink66.github.io/corona-updates/
 
 Api Used : https://covid19.mathdro.id/
 
