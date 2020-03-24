@@ -24,7 +24,7 @@ componentDidMount(){
 async getData(){
   const respApi = await Axios.get("https://covid19.mathdro.id/api");
   const respCountries = await Axios.get("https://covid19.mathdro.id/api/countries");
-  const countries = Object.keys(respCountries.data.countries);
+  const countries = respCountries.data.countries;
   this.setState({
     confirmed: respApi.data.confirmed.value,
     recovered: respApi.data.recovered.value,
@@ -57,7 +57,7 @@ async getCountryData(e){
 
 renderCountryOptions(){
   return this.state.countries.map((country,i)=>{
-      return <option key={i}>{country}</option>
+      return <option key={i}>{country.name}</option>
   });
 }
 
