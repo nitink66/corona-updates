@@ -29,7 +29,7 @@ async getData(){
     confirmed: respApi.data.confirmed.value,
     recovered: respApi.data.recovered.value,
     deaths: respApi.data.deaths.value,
-    countries
+    countries:countries
   });
 }
 
