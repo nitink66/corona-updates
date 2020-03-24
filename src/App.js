@@ -57,8 +57,8 @@ async getCountryData(e){
 }
 
 renderCountryOptions(){
-  return this.state.countries.map((name,i)=>{
-      return <option key={i}>{name}</option>
+  return this.state.countries.map((country,i)=>{
+      return <option key={i}>{country}</option>
   });
 }
 
