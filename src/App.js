@@ -75,7 +75,7 @@ renderCountryOptions(){
   </ul>
   </nav>
         <div className="container1">
-            <img></img>
+            <img alt=""></img>
           </div>
              <h1 className="heading">Corona Global Updates</h1>
              <br></br>
@@ -105,7 +105,55 @@ renderCountryOptions(){
           <i className="fas fa-radiation-alt fa-6x"></i>
             <h3>{this.state.deaths}</h3>
         </div>
+
+              <article className="bg-white mw5 ba b--black-100 mv4 news">
+        <div className="pv2 ph3">
+          <h1 className="f6 ttu tracked">Daily News Co.</h1>
         </div>
+        <img src="https://www.gstatic.com/youtube/img/promos/growth/7f32b5b035a135015508e87bf6ff92d9d98d45b9cc9fb53f28be04732ffd547b_384x384.png" 
+        className="w-100 db" alt="tabby"/>
+        <div className="pa3">
+          <h5>COVID-19</h5>
+          <h5 className="f6 lh-copy measure mt2 mid-gray">Get the latest info from the MoHFW about COVID-19</h5>
+          <a href="https://www.mohfw.gov.in/" className="link lh-title light-blue pv2 db">Learn More</a>
+          <a href="https://main.mohfw.gov.in/" className="link lh-title light-blue">Main site</a>
+          
+        </div>
+      </article>
+            
+            <div className="container11">
+            <h1 className="tc">Advise for Public</h1>
+        <iframe width="363" height="345" src="https://www.youtube.com/embed/bPITHEiFWLc" frameBorder="0" 
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+        allowFullScreen></iframe>
+        <p>Official WHO Youtube Video</p>
+        </div>
+
+        </div>
+        <div className="basic tc">
+          <h1 className="tc">Basic protective measures against the new coronavirus</h1>
+          <h3><strong>Wash your hands frequently</strong></h3>
+          <p>Regularly and thoroughly clean your hands with an alcohol-based hand rub or wash them with soap and water.</p>
+          <p><strong>Why?</strong> Washing your hands with soap and water or using alcohol-based hand rub kills viruses that may be on your hands.</p>
+          <br></br>
+          <br></br>
+
+          <h3><strong>Maintain social distancing</strong></h3>
+          <p>Maintain at least 1 metre (3 feet) distance between yourself and anyone who is coughing or sneezing.</p>
+          <p><strong>Why?</strong> When someone coughs or sneezes they spray small liquid droplets from their nose or mouth which may contain virus. </p>
+         <p> If you are too close, you can breathe in the droplets, including the COVID-19 virus if the person coughing has the disease.</p>
+          <br></br>
+          <br></br>
+
+          <h3><strong>Avoid touching eyes, nose and mouth</strong></h3>
+          <p><strong>Why?</strong> Hands touch many surfaces and can pick up viruses. Once contaminated, hands can transfer the virus to your eyes, nose or mouth. </p>
+          <p>From there, the virus can enter your body and can make you sick.</p>
+          <br></br>
+          <br></br>
+
+
+        </div>
+
         <p></p>
         <p> Note :
          All data is being Served by John Hopkins University CSSE </p>
