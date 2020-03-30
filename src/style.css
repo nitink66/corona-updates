@@ -239,6 +239,15 @@ p{
     }
     .basic{
         margin-top: 660px;
-        margin-left: 15px;
+        margin-left: 0px;
+    }
+}
+@media screen and (max-width:1320px) and (min-width:1032px){
+    .container11{
+        margin-top:1250px;
+        margin-left: 100px;
+    }
+    .basic{
+        margin-left: 0.3px;
     }
 }
